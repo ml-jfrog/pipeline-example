@@ -4,7 +4,7 @@ node {
     def buildInfo = Artifactory.newBuildInfo()
 
     stage ('Clone') {
-        git url: 'https://github.com/gyzong1/pipeline-example.git'
+        git url: 'https://github.com/ml-jfrog/pipeline-example.git'
     }
 
     stage('env capture') {
